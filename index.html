@@ -8,17 +8,27 @@
     <title>Document</title>
 </head>
 <body>
-   <header>
-       <nav class="nav">
-            <img class="nav__logo" src="/starter-code/assets/shared/logo.svg" alt="logo">
-            <img src="/starter-code/assets/shared/icon-hamburger.svg" alt="menu">
-            <ul class="nav__lists">
-                <li class="nav__list"><a clasz="nav__link" href="#">01 HOME</a></li>
-                <li class="nav__list"><a clasz="nav__link" href="#">02 DESTINATION</a></li>
-                <li class="nav__list"><a clasz="nav__link" href="#">03 CREW</a></li>
-                <li class="nav__list"><a clasz="nav__link" href="#">04 TECHNOLOGY</a></li>
+   <header class="inline-space">
+       <nav class="nav block-space">
+            <img class="nav__logo point" src="/starter-code/assets/shared/logo.svg" alt="logo">
+            <img class="nav__menu point" src="/starter-code/assets/shared/icon-hamburger.svg" alt="menu">
+            <ul class="nav__lists hide">
+                <li class="nav__list"><img class="nav__close point" src="/starter-code/assets/shared/icon-close.svg" alt="close menu"></li>
+                <li class="nav__list"><a clasz="nav__link" href="#"><span>01</span>  HOME</a></li>
+                <li class="nav__list"><a clasz="nav__link" href="#"><span>02</span>  DESTINATION</a></li>
+                <li class="nav__list"><a clasz="nav__link" href="#"><span>03</span> CREW</a></li>
+                <li class="nav__list"><a clasz="nav__link" href="#"><span>04</span>  TECHNOLOGY</a></li>
             </ul>
        </nav>
+       <div class="header__tagline">
+           <p class="sub-heading">SO, YOU WANT TO TRAVEL TO</p>
+           <h1 class="main-heading">SPACE</h1>
+           <p class="content">Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!</p>
+       </div>
+       <div class="header__heading">
+           <h1>EXLPORE</h1>
+       </div>
    </header>
+   <script src="logic.js"></script>
 </body>
 </html>
