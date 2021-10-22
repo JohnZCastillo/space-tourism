@@ -24,7 +24,8 @@ li{
 /*-- header --*/
 header{
     position: relative;
-    height: 667px;
+    min-height: 667px;
+    height: 100vh;
     background-image: url('/starter-code/assets/home/background-home-mobile.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -69,7 +70,7 @@ header{
     display: flex;
     z-index: 999;
     flex-direction: column;
-    transition: width 200ms;
+    transition: width 200ms ease;
     background-color: transparent;
     backdrop-filter: blur(81.55px);
 }
